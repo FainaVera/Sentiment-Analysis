@@ -4,9 +4,8 @@ import pickle
 import urllib
 from apiclient.discovery import build
 from urllib.error import HTTPError, URLError
-#import signal
 
-key = 'AIzaSyBYX1tSqkSflKAJjs_KwTOF9HWFgzy4Gig'
+key = 'your_key_here'
 videoId = 't_KdbASIkB8'
 
 def build_service():
